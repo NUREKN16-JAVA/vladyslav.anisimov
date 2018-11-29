@@ -24,3 +24,6 @@ RemoteSystemsTempFiles/*
 .idea
 *.txt
 lib/*
+usermanagement/db/*
+usermanagement/out/*
+createtable.sql

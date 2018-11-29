@@ -8,9 +8,9 @@ import org.junit.Test;
 import junit.framework.TestCase;
 
 public class UserTest extends TestCase {
-	private static final String FULL_NAME_ETALONE = "Ivanov, Ivan";
-	private static final String LAST_NAME_ETALONE = "Ivanov";
-	private static final String FIRST_NAME_ETALONE = "Ivan";
+	private static final String FULL_NAME_ETALONE = "Anisimov, Vladyslav";
+	private static final String LAST_NAME_ETALONE = "Anisimov";
+	private static final String FIRST_NAME_ETALONE = "Vladyslav";
 	private User user;
 
 

@@ -13,7 +13,7 @@ hs_err_pid*
 
 # Target, bin and settings
 target/*
-bin/*
+usermanagement/bin/*
 .metadata/*
 .recommenders/*
 RemoteSystemsTempFiles/*

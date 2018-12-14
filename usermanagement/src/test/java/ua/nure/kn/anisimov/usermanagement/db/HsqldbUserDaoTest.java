@@ -59,9 +59,6 @@ public class HsqldbUserDaoTest extends DatabaseTestCase {
 		}
 	}
 	
-	
-	
-
 	@Override
 	protected IDatabaseConnection getConnection() throws Exception {
 		connectionFactory = new ConnectionFactoryImpl();
@@ -73,5 +70,7 @@ public class HsqldbUserDaoTest extends DatabaseTestCase {
 		IDataSet dataSet = new  XmlDataSet(getClass().getClassLoader().getResourceAsStream("usersDataSet.xml"));
 		return dataSet;
 	}
+	
+	
 
 }

@@ -20,11 +20,7 @@ public interface UserDao {
 	
 	Collection<User> findAll() throws DatabaseException;
 	
-	/**
-	 * 
-	 * @param user 
-	 * @throws DatabaseException
-	 */
+	Collection<User> find(String firstName, String lastName) throws DatabaseException;
 	
 	void update(User user) throws DatabaseException;
 	
